@@ -1,0 +1,26 @@
+# Student Information Card
+
+print("=" * 40)
+print("        STUDENT INFORMATION CARD")
+print("=" * 40)
+
+name = input("Enter your Name: ")
+age = input("Enter your Age: ")
+university = input("Enter your University: ")
+department = input("Enter your Department: ")
+semester = input("Enter your Semester: ")
+cgpa = input("Enter your CGPA: ")
+dream_career = input("Enter your Dream Career: ")
+
+print("\n" + "=" * 40)
+print("          STUDENT CARD")
+print("=" * 40)
+print("Name          :", name)
+print("Age           :", age)
+print("University    :", university)
+print("Department    :", department)
+print("Semester      :", semester)
+print("CGPA          :", cgpa)
+print("Dream Career  :", dream_career)
+print("=" * 40)
+print("Thank you for using the Student Card Program!")
