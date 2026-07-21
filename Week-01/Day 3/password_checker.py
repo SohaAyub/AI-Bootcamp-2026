@@ -1,31 +1,20 @@
 """
-Project: Student Grade Calculator
+Project: Password Checker
 Week: 01
 Day: 03
 
 Description:
-Calculates the student's grade based on marks.
+Checks whether the entered password matches the predefined password.
 
 Author: Soha Ayub
 Repository: AI-Bootcamp-2026
 """
 
-marks = float(input("Enter your marks: "))
+correct_password = "python123"
 
-if marks >= 90:
-    print("Grade: A+")
+password = input("Enter Password: ")
 
-elif marks >= 80:
-    print("Grade: A")
-
-elif marks >= 70:
-    print("Grade: B")
-
-elif marks >= 60:
-    print("Grade: C")
-
-elif marks >= 50:
-    print("Grade: D")
-
+if password == correct_password:
+    print("Login Successful")
 else:
-    print("Fail")
+    print("Incorrect Password")
